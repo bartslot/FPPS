@@ -1,31 +1,80 @@
 fileFormatVersion: 2
-guid: 90fcdcf69946b9647a6f910e748de113
-timeCreated: 18446744011573954816
+guid: 5d0e43fa19c864a9b8c2d08041bf042f
+timeCreated: 1519048212
+licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: hourse_lod0
-    100002: //RootNode
-    100004: stone_lod0
-    400000: hourse_lod0
-    400002: //RootNode
-    400004: stone_lod0
-    2300000: hourse_lod0
-    2300002: //RootNode
-    2300004: stone_lod0
-    3300000: hourse_lod0
-    3300002: //RootNode
-    3300004: stone_lod0
-    4300000: console_lod0
-    4300002: stone_lod0
-    4300004: hourse_lod0
+    100000: pCone1
+    100002: pCone2
+    100004: pCylinder1
+    100006: pCylinder2
+    100008: pDisc1
+    100010: pDisc2
+    100012: pDisc3
+    100014: pDisc4
+    100016: pPlatonic2
+    100018: pSuperShape3
+    100020: pSuperShape4
+    100022: pTorus1
+    100024: //RootNode
+    400000: pCone1
+    400002: pCone2
+    400004: pCylinder1
+    400006: pCylinder2
+    400008: pDisc1
+    400010: pDisc2
+    400012: pDisc3
+    400014: pDisc4
+    400016: pPlatonic2
+    400018: pSuperShape3
+    400020: pSuperShape4
+    400022: pTorus1
+    400024: //RootNode
+    2100000: lambert1
+    2300000: pCone1
+    2300002: pCone2
+    2300004: pCylinder1
+    2300006: pCylinder2
+    2300008: pDisc1
+    2300010: pDisc2
+    2300012: pDisc3
+    2300014: pDisc4
+    2300016: pPlatonic2
+    2300018: pSuperShape3
+    2300020: pSuperShape4
+    2300022: pTorus1
+    3300000: pCone1
+    3300002: pCone2
+    3300004: pCylinder1
+    3300006: pCylinder2
+    3300008: pDisc1
+    3300010: pDisc2
+    3300012: pDisc3
+    3300014: pDisc4
+    3300016: pPlatonic2
+    3300018: pSuperShape3
+    3300020: pSuperShape4
+    3300022: pTorus1
+    4300000: pCylinder1
+    4300002: pDisc1
+    4300004: pDisc2
+    4300006: pCone1
+    4300008: pSuperShape3
+    4300010: pSuperShape4
+    4300012: pDisc3
+    4300014: pDisc4
+    4300016: pPlatonic2
+    4300018: pCone2
+    4300020: pCylinder2
+    4300022: pTorus1
     9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
-    materialName: 1
-    materialSearch: 2
-    materialLocation: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -53,10 +102,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 0
+    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -64,17 +113,17 @@ ModelImporter:
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    indexFormat: 1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -92,7 +141,7 @@ ModelImporter:
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
-    skeletonHasParents: 0
+    skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   humanoidOversampling: 1

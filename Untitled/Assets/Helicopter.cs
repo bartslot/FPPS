@@ -10,7 +10,7 @@ public class Helicopter : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 //		transform.position = new Vector3 (transform.position.x, transform.position.y + .1f, transform.position.z);
 		transform.eulerAngles = new Vector3 (transform.eulerAngles.x, transform.eulerAngles.y + 10f, transform.eulerAngles.z);
 	}
