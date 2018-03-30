@@ -8,7 +8,7 @@ public class Shooter : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-				
+	int hit = 0;				
 	}
 	
 	// Update is called once per frame
@@ -22,14 +22,25 @@ public class Shooter : MonoBehaviour {
 
 			bulletRigidbody.AddForce (transform.forward * 2000, ForceMode.Force);
 		}
-		if (Input.GetMouseButtonDown (1))
+		if (Input.GetMouseButtonDown (0))
 		{
 			RaycastHit hitInfo;
-			if (Physics.Raycast(transform.position + transform.forward, transform.forward, out hitInfo)) {
+			if (Physics.Raycast(transform.position + transform.forward, transform.forward, out hitInfo)) 
+			{
 				
-				if(hitInfo.collider.gameObject.name == "Target") 
+				if(hitInfo.collider.gameObject.tag == "Target_destroy")
 				{
-					Destroy (hitInfo.collider.gameObject);
+					if(hitInfo.transform.GetComponent<PaardHitter>().hit <= 0)
+					{
+						hitInfo.transform.GetComponent<Helicopter>().enabled = true;
+						print("HIT");
+						hitInfo.transform.GetComponent<PaardHitter>().hit++;
+					}
+					else
+					{ 
+						hitInfo.transform.GetComponent<Helicopter1>().enabled = true;
+					}
+				//	Destroy (hitInfo.collider.gameObject);
 				}
 			}
 		}
