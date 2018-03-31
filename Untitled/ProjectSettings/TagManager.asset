@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Target_destroy
+  - Fire
+  - Music
   layers:
   - Default
   - TransparentFX
@@ -15,7 +17,7 @@ TagManager:
   - 
   - 
   - aPickle
-  - 
+  - Music
   - 
   - 
   - 
